@@ -52,13 +52,13 @@ This spritemap displays fine in **Chrome**, **Safari 7.1+**, **Firefox**, and **
 
 ```html
 <svg role="img" title="CodePen">
-	<use xlink:href="map.svg#codepen"/>
+	<use href="map.svg#codepen"/>
 </svg>
 <svg role="img" title="YouTube">
-	<use xlink:href="map.svg#youtube"/>
+	<use href="map.svg#youtube"/>
 </svg>
 <svg role="img" title="Twitter">
-	<use xlink:href="map.svg#twitter"/>
+	<use href="map.svg#twitter"/>
 </svg>
 ```
 
