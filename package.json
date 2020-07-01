@@ -20,7 +20,7 @@
   "scripts": {
     "build": "grunt build",
     "clean": "git checkout dist/svg4everybody.js && git checkout dist/svg4everybody.min.js && git checkout dist/svg4everybody.legacy.js && git checkout dist/svg4everybody.legacy.min.js",
-    "test": "grunt test",
+    "test": "grunt build && grunt test",
     "watch": "grunt build:watch"
   },
   "repository": "jonathantneal/svg4everybody",
